@@ -104,31 +104,20 @@ bool unload(void)
         if(table[i] != NULL)
         {
             node* head = table[i];
-            node* del = table[i];
-            bool end_of_loop = false;
+            node* cursor = head;
+            node* del = head;
             
-            while(end_of_loop != true)
+            while(cursor != NULL)
             {
-                head = head->next;
+                cursor = cursor->next;
                 free(del);
-                del->next = NULL;
-                del = head;
-                if(head->next == NULL)
-                {
-                    
-                    free(head);
-                    head->next = NULL;
-                    end_of_loop = true;
-                }
+                del = cursor;
             }
         }    
         if(i == N)
         {
-            done = true;
+            return true;
         }
     }
-    if(done==true)
-        return true;   
-    else
-        return false;
+    return false;
 }
