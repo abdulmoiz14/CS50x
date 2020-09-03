@@ -60,7 +60,7 @@ bool load(const char *dictionary)
     {
         return false;
     }
-    char letter[45 + 1];
+    char letter[LENGTH + 1];
     unsigned int index;
      while(fscanf(file,"%s",letter) != EOF)
     {
@@ -114,10 +114,6 @@ bool unload(void)
                 del = cursor;
             }
         }    
-        if(i == N)
-        {
-            return true;
-        }
     }
-    return false;
+    return true;
 }
