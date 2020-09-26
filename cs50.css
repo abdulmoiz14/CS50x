@@ -1,0 +1,97 @@
+.title-image{
+    background-image:url('harvard.png');
+    background-position:right bottom;
+    background-repeat:no-repeat;
+    background-size:45%;
+}
+p.title{
+    font-family:Lucida Console;
+    font-size:40px;
+    text-align:center;
+    padding-top:30px;
+    color:grey;
+}
+p.greet{
+    font-family:Lucida Console;
+    font-size:40px;
+    text-align:center;
+    padding-top:30px;
+    color:tomato;
+}
+.harvard-statue-and-scratch-img{
+    background-image:url('harvard-statue.jpg'),url('scratch.png');
+    background-position:right bottom,left top;
+    background-repeat:no-repeat,no-repeat;
+    background-size:45%,35%;
+}
+.c-icon{
+    background-image:url('c.png');
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:25%;
+}
+.frog-img{
+    background-image:url('arrays.jpg');
+    background-position:right top;
+    background-repeat:no-repeat;
+    background-size:30%;
+}
+.algorithm-image{
+    background-image:url('algoritm.png');
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:24%;
+}
+.ram-img{
+    background-image:url('ram.jpg');
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:22%;
+}
+.data-structure-img{
+    background-image:url('data-structure.jpg');
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:22%;
+}
+.python-img{
+    background-image:url('python.jpg');
+    background-position:right ;
+    background-repeat:no-repeat;
+    background-size:22%;
+}
+.sql-img{
+    background-image:url('sql.jpg');
+    background-position:right ;
+    background-repeat:no-repeat;
+    background-size:35%;
+}
+.information-img{
+    background-image:url('information.jpg');
+    background-position:right bottom;
+    background-repeat:no-repeat;
+    background-size:35%;
+}
+p.week0,p.week1,p.week2,p.week3,p.week4,p.week5,p.week6,p.week7,p.week8{
+    color:tomato;
+    font-size:40px;
+    margin-top:15%;
+    margin-left:6%;
+    text-align:left;
+}
+
+#lecture,#pset a{
+    font-size:40px;
+    margin-left:22%;
+    text-align:left;
+}
+#shorts-heading {
+    font-size:40px;
+    margin-left:22%;
+    text-align:left;
+}
+#shorts{
+    font-size:30px;
+    margin-left:30%;
+    text-align:left;
+}

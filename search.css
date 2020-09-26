@@ -1,0 +1,55 @@
+
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 30px 0;
+  box-sizing: border-box;
+  color:tomato;
+}
+#result{
+    text-align:center;
+    font-size:50px;
+    margin-top:30px;
+}
+.search-box{
+  padding-top:5%;
+  margin-left:35%;
+}
+.wrapper{
+  background-image:url("search.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:22%;
+}
+.search-engine{
+  font-size:80px;
+  padding-top:15%;
+  text-align:center;
+  font-family:Lucida Console;
+  animation-name: animate,sizing;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  height:30vh;
+}
+@keyframes animate {
+  0%{
+    color: teal;
+  }
+  25%{
+    color: steelblue;
+  }
+  50%{
+    color:mediumpurple;
+  }
+  75%{
+    color: firebrick;
+  }
+  100%{
+    color: olivedrab;
+  }
+}
+@keyframes sizing {
+  from{font-size:50px;}
+  to{font-size:80px;}
+}
