@@ -1,0 +1,16 @@
+body{
+  background-image:url(wallpaper.jpg);
+}
+p{
+    font-family:Lucida Console;
+    font-size:40px;
+    text-align:center;
+    padding-top:40px;
+    color:white;
+}
+h1{
+    color:white;
+    font-family:Lucida Console;
+    font-size:40px;
+    text-align:center;
+}
